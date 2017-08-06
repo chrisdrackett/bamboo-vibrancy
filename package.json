@@ -1,8 +1,8 @@
 {
-  "name": "one-vibrancy",
-  "main": "./lib/one-vibrancy",
+  "name": "bamboo-vibrancy",
+  "main": "./lib/bamboo-vibrancy",
   "version": "0.1.2",
-  "description": "This package adds a vibrancy effect (translucent background) to One themes.",
+  "description": "This package adds a vibrancy effect (translucent background) to Bamboo theme.",
   "keywords": [
     "vibrancy",
     "effect",
@@ -10,26 +10,10 @@
     "background",
     "macOS"
   ],
-  "repository": "https://github.com/simurai/one-vibrancy",
+  "repository": "https://github.com/chrisdrackett/bamboo-vibrancy",
   "license": "MIT",
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
   },
-  "dependencies": {},
-  "configSchema": {
-    "effect": {
-      "title": "Effect",
-      "description": "Switch between different vibrancy effects. `auto` will change based on the UI theme you're using.",
-      "type": "string",
-      "default": "auto",
-      "enum": [
-        "auto",
-        "light",
-        "medium-light",
-        "dark",
-        "ultra-dark"
-      ],
-      "order": 1
-    }
-  }
+  "dependencies": {}
 }
